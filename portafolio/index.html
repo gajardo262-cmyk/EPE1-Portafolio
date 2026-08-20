@@ -1,54 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portafolio - Robnerto Gajardo</title>
-  <meta name="description" content="Portafolio de Roberto Gajardo, Estudiante de Ingeniería en informatica, tecnico en mina, sondajista.">
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio - Roberto Gajardo</title>
+    <meta
+      name="description"
+      content="Portafolio de Roberto Gajardo, Estudiante de Ingeniería en informatica, tecnico en mina, sondajista."
+    />
 
-  <!--bootstrap-->
+    <!--bootstrap-->
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <!--tipografia google-->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"
-    rel="stylesheet">
+    <!--tipografia google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <!--CSS propio-->
     <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--barra de navegación-->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Roberto Gajardo</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="habilidades.html">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="experiencia.html">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-</head>
-<body>
-  <!--barra de navegación-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Roberto Gajardo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Habilididades</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Experiencia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-</body>
+    <!--contenido principal-->
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <p class="eyebrow">Del terreno al código</p>
+
+          <h1>Roberto Gajardo</h1>
+
+          <p>
+            Estudiante de Ingeniería en Informática con experiencia en minería y
+            sondaje.<br />
+            Actualmente curso tercer año de la carrera y me desempeño
+            laboralmente en minería subterránea en Calama.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="proyectos.html" class="btn btn-primary">Ver Proyectos</a>
+            <a href="contacto.html" class="btn btn-secondary">Contactame</a>
+          </div>
+        </div>
+        <br />
+        <div class="hero-info">
+          <h2>Mi Perfil</h2>
+
+          <div class="info-item">
+            <h3>Estudios</h3>
+            <p>Tecnico en mina y estudiante de Ingeniería en Informática</p>
+          </div>
+
+          <div class="info-item">
+            <h3>Experiencia</h3>
+            <p>Sondaje superficie, exploracion e interior mina</p>
+          </div>
+
+          <div class="info-item">
+            <h3>Objetivo</h3>
+            <p>Desarrollarme profesionalmente en el área informática</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
