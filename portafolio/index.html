@@ -28,124 +28,142 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!--barra de navegación-->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Roberto Gajardo</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Inicio</a
+    
+      <!--barra de navegación-->
+      <nav class="navbar navbar-expand-lg" aria-label="Barra de navegación">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Roberto Gajardo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Abrir menu de navegacion"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proyectos.html">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="habilidades.html">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experiencia.html">Experiencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>       
+      <!--contenido principal-->
+
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <p class="eyebrow">Del terreno al código</p>
+
+            <h1>Roberto Gajardo</h1>
+
+            <p>
+              Estudiante de Ingeniería en Informática con experiencia en minería
+              y sondaje.<br />
+              Actualmente curso tercer año de la carrera y me desempeño
+              laboralmente en minería subterránea en Calama.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="proyectos.html" class="hero-btn-primary"
+                >Ver Proyectos</a
               >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="habilidades.html">Habilidades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="experiencia.html">Experiencia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
+              <a href="contacto.html" class="hero-btn-secondary">Contactame</a>
+            </div>
+          </div>
+          <div class="hero-info">
+            <h2>Mi Perfil</h2>
+
+            <div class="info-item">
+              <h3>Estudios</h3>
+              <p>Tecnico en mina y estudiante de Ingeniería en Informática</p>
+            </div>
+
+            <div class="info-item">
+              <h3>Experiencia</h3>
+              <p>Sondaje superficie, exploracion e interior mina</p>
+            </div>
+
+            <div class="info-item">
+              <h3>Objetivo</h3>
+              <p>Desarrollarme profesionalmente en el área informática</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
+      </section>
 
-    <!--contenido principal-->
+      <!--Resumen-->
 
-    <section class="hero">
+      <section class="timeline">
+        <div class="container">
+          <div class="timeline-head">
+            <h2>Mi Recorrido</h2>
+          </div>
+          <div class="timeline-list">
+            <div class="timeline-item">
+              <span class="timeline-number">01</span>
+              <h3>Experiencia en terreno</h3>
+              <p>+ de 13 años trabajando en mineria.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-number">02</span>
+              <h3>Aprendizaje constante</h3>
+              <p>Actualmente ampliando mi formacion hacia la informatica.</p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-number">03</span>
+              <h3>Proyeccion profesional</h3>
+              <p>
+                Desarrollarme profesionalmente en el area de la informatica y la
+                tecnologia.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <span class="timeline-number">04</span>
+              <h3>Proximos desafios</h3>
+              <p>
+                Aplicar mis conocimientos y experiencia en el desarrollo de
+                soluciones tecnológicas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="footer">
       <div class="container">
-        <div class="hero-content">
-          <p class="eyebrow">Del terreno al código</p>
-
-          <h1>Roberto Gajardo</h1>
-
-          <p>
-            Estudiante de Ingeniería en Informática con experiencia en minería y
-            sondaje.<br />
-            Actualmente curso tercer año de la carrera y me desempeño
-            laboralmente en minería subterránea en Calama.
-          </p>
-
-          <div class="hero-buttons">
-            <a href="proyectos.html" class="btn btn-primary">Ver Proyectos</a>
-            <a href="contacto.html" class="btn btn-secondary">Contactame</a>
-          </div>
-        </div>
-        <br />
-        <div class="hero-info">
-          <h2>Mi Perfil</h2>
-
-          <div class="info-item">
-            <h3>Estudios</h3>
-            <p>Tecnico en mina y estudiante de Ingeniería en Informática</p>
-          </div>
-
-          <div class="info-item">
-            <h3>Experiencia</h3>
-            <p>Sondaje superficie, exploracion e interior mina</p>
-          </div>
-
-          <div class="info-item">
-            <h3>Objetivo</h3>
-            <p>Desarrollarme profesionalmente en el área informática</p>
-          </div>
-        </div>
+        <p>&copy; 2026 Roberto Gajardo. Todos los derechos reservados.</p>
+        <a
+          class="footer-link"
+          href="https://github.com/gajardo262-cmyk"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        >
       </div>
-    </section>
-
-    <!--Resumen-->
-
-    <section class="timeline">
-      <div class="container">
-        <div class="timeline-head">
-          <h2>Mi Recorrido</h2>
-        </div>
-        <div class="timeline-list">
-          <div class="timeline-item">
-            <span class="timeline-number">01</span>
-            <h3>Experiencia en terreno</h3>
-            <p>+ de 13 años trabajando en mineria.</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-number">02</span>
-            <h3>Aprendizaje constante</h3>
-            <p>Actualmente ampliando mi formacion hacia la informatica.</p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-number">03</span>
-            <h3>Proyeccion profesional</h3>
-            <p>
-              Desarrollarme profesionalmente en el area de la informatica y la
-              tecnologia.
-            </p>
-          </div>
-          <div class="timeline-item">
-            <span class="timeline-number">04</span>
-            <h3>Proximos desafios</h3>
-            <p>
-              Aplicar mis conocimientos y experiencia en el desarrollo de
-              soluciones tecnológicas.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
